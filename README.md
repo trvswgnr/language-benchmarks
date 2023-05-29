@@ -24,6 +24,17 @@ The benchmark files should be written in a way that allows them to be compiled a
 
 The benchmarking script will run the benchmark multiple times and get the average execution time. The number of times that the benchmark is run can be specified as the second argument to the `bench.sh` script.
 
+The current supported languages are:
+
+- Assembly
+- C
+- Go
+- JavaScript
+- PHP
+- Python
+- Rust
+- Zig
+
 ## Contributing
 
 If you would like to add a benchmark, feel free to open a pull request. If you would like to add a benchmark for a language that is not currently supported, you can also open an issue and I will try to add it.
